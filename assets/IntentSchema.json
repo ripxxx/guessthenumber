@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "intent": "Stop"
+    },
+    {
+      "intent": "Guess",
+      "slots": [
+        {
+          "name": "Num",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "Give",
+      "slots": [
+        {
+          "name": "NumOfTries",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    }
+    
+  ]
+}

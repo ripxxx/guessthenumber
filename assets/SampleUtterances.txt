@@ -1,0 +1,6 @@
+Stop stop
+Guess {Num}
+Guess how about {Num}
+Guess maybe {Num}
+Give give me {NumOfTries} more tries
+Give give me {NumOfTries} more try
