@@ -30,7 +30,7 @@ class GiveIntent extends Intent {
         else {
             $response->addText('You can ask me for more tries, only one time. You have '.$cnt.(($cnt > 1)? ' tries': 'try').' to guess the number. Try to guess it.');
         }
-        $response->setRepromprtMessage('I am waiting. Try to guess the number.');
+        $response->setRepromptMessage('I am waiting. Try to guess the number.');
         return $response;
     }
     

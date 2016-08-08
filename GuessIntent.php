@@ -41,7 +41,7 @@ class GuessIntent extends Intent {
                 $this->user['cnt'] = $cnt;
             }
         }
-        $response->setRepromprtMessage('I am waiting. Try to guess the number.');
+        $response->setRepromptMessage('I am waiting. Try to guess the number.');
         return $response;
     }
     

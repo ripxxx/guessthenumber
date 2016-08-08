@@ -24,7 +24,7 @@ class Launch extends LaunchRequest {
         $this->user['extraTriesGiven'] = false;
         
         $response->addText('I guessed the number from '.$low.' to '.$high.', try to guess! You have '.MAX_TRIES.((MAX_TRIES > 1)? ' tries': 'try').'. Goodluck!');
-        $response->setRepromprtMessage('I am waiting. Try to guess the number.');
+        $response->setRepromptMessage('I am waiting. Try to guess the number.');
         return $response;
     }
     
