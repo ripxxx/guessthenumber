@@ -3,6 +3,6 @@ return [
     'directories' => [
         'content' => __DIR__.'/content',
     ],
-    'skillHttpsUrl' => 'https://www.yoursite.com/'.guesthenumber,
+    'skillHttpsUrl' => 'https://alexa.phpse.com.ua/guessthenumber',
     'allowedContentTypes' => 'jpg|jpeg|gif|mp3'
 ];
